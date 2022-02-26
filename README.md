@@ -2,5 +2,6 @@
 
 Configuraciones de nvim y plugins
 
-•Airline
-•Airline-themes
+*Airline
+*Airline-themes
+*NerdThree
