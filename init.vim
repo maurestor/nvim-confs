@@ -1,4 +1,4 @@
-execute pathogen#infect()
+call pathogen#infect()
 syntax on
 syntax enable
 filetype plugin indent on
@@ -16,7 +16,6 @@ let g:airline_powerline_fonts=1
 
 " Always show statusline
 set laststatus=2
-
 
 " show existing tab with 4 spaces width
 set tabstop=4
