@@ -19,9 +19,10 @@ $ cd ..
 
 $ cd .\AppData\Local\
 
-$ git [clone https://github.com/maurestor/nvim-confs](https://github.com/maurestor/nvim-confs.git)
+$ git clone https://github.com/maurestor/nvim-confs.git
 
 $ mv nvim-confs nvim
+
 
 Open nvim
 
