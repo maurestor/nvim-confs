@@ -36,6 +36,7 @@ $ git clone https://github.com/github/copilot.vim.git `
 $ nvim
 
 :WakaTimeApiKey
+
 :Copilot setup
 
 ### Extras
