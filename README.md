@@ -13,9 +13,11 @@ $ cd ..
 
 
 ### Windows
-$ mkdir .\AppData\Local\nvim\
-$ cd .\AppData\Local\nvim\
+$ cd .\AppData\Local\
+$ git clone https://github.com/maurestor/nvim-confs
+$ mv nvim-confs nvim
 
+Open nvim
 
 - Airline
 - Airline-themes
