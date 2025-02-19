@@ -1,7 +1,5 @@
 # nvim confs and plugins
-
 ## Configuraciones de nvim y plugins
-
 Abrir teminal e ir al directorio principal
 
 $ git clone https://github.com/powerline/fonts
@@ -10,22 +8,29 @@ $ cd ~/fonts
 
 $ install.sh or install.ps1
 
-$ cd ..
+$ cd ~
 
 ### Linux
-
+...
 
 ### Windows
+Elegir una fuente powerline en PowerShell
 
-$ cd .\AppData\Local\
+$ git clone https://github.com/maurestor/nvim-confs.git .\AppData\Local\nvim
 
-$ git clone https://github.com/maurestor/nvim-confs.git
+$ cd ~\AppData\Local\nvim
 
-$ mv nvim-confs nvim
+### Install plugins
+$ git clone https://github.com/vim-airline/vim-airline.git .\bundle\vim-airline
+
+$ git clone https://github.com/vim-airline/vim-airline-themes.git .\bundle\vim-airline-themes
+
+$ git clone https://github.com/preservim/nerdtree.git .\bundle\nerdtree
 
 
-Open nvim
+## Open nvim
 
 - Airline
 - Airline-themes
 - NerdThree
+
