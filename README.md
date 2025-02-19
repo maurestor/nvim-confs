@@ -1,4 +1,5 @@
 # nvim confs and plugins
+
 ## Configuraciones de nvim y plugins
 Abrir teminal e ir al directorio principal
 
@@ -21,16 +22,27 @@ $ git clone https://github.com/maurestor/nvim-confs.git .\AppData\Local\nvim
 $ cd ~\AppData\Local\nvim
 
 ### Install plugins
-$ git clone https://github.com/vim-airline/vim-airline.git .\bundle\vim-airline
 
-$ git clone https://github.com/vim-airline/vim-airline-themes.git .\bundle\vim-airline-themes
+Install Youcompleteme extras, read documentation
+.local\share\nvim\plugged\YouCompleteMe\install.py --all
 
-$ git clone https://github.com/preservim/nerdtree.git .\bundle\nerdtree
+install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
 
 
 ## Open nvim
+$ nvim
 
+:PlugInstall
+
+:WakaTimeApiKey
+
+:Copilot setup
+
+### Extras
 - Airline
 - Airline-themes
 - NerdThree
+- Copilot
+- WakaTime
+- YouCompleteMe
 
