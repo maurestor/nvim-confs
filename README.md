@@ -2,16 +2,17 @@
 
 ## Configuraciones de nvim y plugins
 
-Abrir teminal
-Ir al directori principal
+Abrir teminal e ir al directorio principal
 
-git clone https://github.com/powerline/fonts
+$ git clone https://github.com/powerline/fonts
+$ cd ~/fonts
+$ install.sh or install.ps1
+$ cd ..
 
-cd ~/fonts
+### Linux
 
-install.sh or install.ps1
-
-
+### Windows
+$ mkdir .\AppData\Local\nvim\
 
 - Airline
 - Airline-themes
