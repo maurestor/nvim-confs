@@ -14,6 +14,8 @@ $ cd ~
 ...
 
 ### Windows
+Elegir una fuente powerline en PowerShell
+
 $ git clone https://github.com/maurestor/nvim-confs.git .\AppData\Local\nvim
 
 $ cd ~\AppData\Local\nvim
