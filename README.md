@@ -27,9 +27,23 @@ $ git clone https://github.com/vim-airline/vim-airline-themes.git .\bundle\vim-a
 
 $ git clone https://github.com/preservim/nerdtree.git .\bundle\nerdtree
 
+$ git clone https://github.com/vim-airline/vim-airline-themes.git .\bundle\vim-airline-themes
 
 ## Open nvim
 
+$ git clone https://github.com/wakatime/vim-wakatime.git .\bundle\vim-wakatime
+
+$ git clone https://github.com/github/copilot.vim.git `
+   $HOME/AppData/Local/nvim/pack/github/start/copilot.vim
+
+## Open nvim
+$ nvim
+
+:WakaTimeApiKey
+
+:Copilot setup
+
+### Extras
 - Airline
 - Airline-themes
 - NerdThree
