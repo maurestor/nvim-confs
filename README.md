@@ -11,8 +11,11 @@ $ cd ..
 
 ### Linux
 
+
 ### Windows
 $ mkdir .\AppData\Local\nvim\
+$ cd .\AppData\Local\nvim\
+
 
 - Airline
 - Airline-themes
