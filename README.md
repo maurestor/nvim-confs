@@ -15,7 +15,7 @@ sudo snap install neovim
 
 $ mkdir ~/.config/nvim
 
-$ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim
+$ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim    (it take a long time, be patient.)
 
 $ nvim (Enter to pass start issues)
 
