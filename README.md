@@ -15,7 +15,7 @@ sudo snap install neovim
 
 $ mkdir ~/.config/nvim
 
-$ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim    (it take a long time, be patient.)
+$ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim    
 
 $ nvim (Enter to pass start issues)
 
@@ -27,7 +27,7 @@ $ nvim (Enter to pass start issues)
 
 $ sudo apt install cmake
 
-$ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py
+$ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py (it take a long time, be patient.)
 
 :Copilot setup
 
