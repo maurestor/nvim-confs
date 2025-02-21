@@ -1,5 +1,5 @@
 # nvim confs and plugins
----
+
 ## Configuraciones de nvim y plugins
 Abrir teminal e ir al directorio principal
 
