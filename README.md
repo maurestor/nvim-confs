@@ -11,12 +11,19 @@ $ cd ~
 
 ### Linux
 sudo snap install neovim
+
 $ mkdir ~/.config/nvim
+
 $ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim
+
 $ nvim (Enter to pass start issues)
+
 :PluginInstall
+
 :ZZ
+
 $ sudo apt install cmake
+
 $ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py
 
 
