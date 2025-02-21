@@ -4,15 +4,21 @@
 Abrir teminal e ir al directorio principal
 
 $ git clone https://github.com/powerline/fonts
-
 $ cd ~/fonts
-
 $ install.sh or install.ps1
 
 $ cd ~
 
 ### Linux
-...
+sudo snap install neovim
+$ mkdir ~/.config/nvim
+$ git clone https://github.com/maurestor/nvim-confs.git ~/.config/nvim
+$ nvim (Enter to pass start issues)
+:PluginInstall
+:ZZ
+$ sudo apt install cmake
+$ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py
+
 
 ### Windows
 Elegir una fuente powerline en PowerShell
