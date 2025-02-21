@@ -8,8 +8,9 @@ $ cd ~/fonts
 $ install.sh or install.ps1
 
 $ cd ~
+
 ---
-### Linux
+## Linux
 sudo snap install neovim
 
 $ mkdir ~/.config/nvim
@@ -31,14 +32,14 @@ $ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py
 :Copilot setup
 
 ---
-### Windows
+## Windows
 Elegir una fuente powerline en PowerShell
 
 $ git clone https://github.com/maurestor/nvim-confs.git .\AppData\Local\nvim
 
 $ cd ~\AppData\Local\nvim
 
-### Install plugins
+## Install plugins
 Install Youcompleteme extras, read documentation
 
 .local\share\nvim\plugged\YouCompleteMe\install.py --all
@@ -53,6 +54,7 @@ $ nvim
 :WakaTimeApiKey
 
 :Copilot setup
+
 ---
 ### Extras
 - Airline
