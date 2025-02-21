@@ -1,5 +1,5 @@
 # nvim confs and plugins
-
+---
 ## Configuraciones de nvim y plugins
 Abrir teminal e ir al directorio principal
 
@@ -8,7 +8,7 @@ $ cd ~/fonts
 $ install.sh or install.ps1
 
 $ cd ~
-
+---
 ### Linux
 sudo snap install neovim
 
@@ -20,13 +20,17 @@ $ nvim (Enter to pass start issues)
 
 :PluginInstall
 
+:WakaTimeApiKey
+
 :ZZ
 
 $ sudo apt install cmake
 
 $ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py
 
+:Copilot setup
 
+---
 ### Windows
 Elegir una fuente powerline en PowerShell
 
@@ -49,7 +53,7 @@ $ nvim
 :WakaTimeApiKey
 
 :Copilot setup
-
+---
 ### Extras
 - Airline
 - Airline-themes
