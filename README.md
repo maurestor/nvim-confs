@@ -48,6 +48,8 @@ Install Youcompleteme extras, read documentation
 
 install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
 
+https://cygwin.com/setup-x86_64.exe
+
 ## Open nvim
 $ nvim
 
