@@ -54,6 +54,8 @@ https://cygwin.com/setup-x86_64.exe
 
 https://go.dev/dl/
 
+https://www.msys2.org/#installation
+
 .local\share\nvim\plugged\YouCompleteMe\install.py --all
 
 install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
