@@ -44,6 +44,8 @@ $ cd ~\AppData\Local\nvim
 ## Install plugins
 Install Youcompleteme extras, read documentation
 
+pip install pynvim
+
 .local\share\nvim\plugged\YouCompleteMe\install.py --all
 
 install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
