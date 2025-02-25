@@ -42,20 +42,23 @@ $ git clone https://github.com/maurestor/nvim-confs.git .\AppData\Local\nvim
 $ cd ~\AppData\Local\nvim
 
 ## Install plugins
-Install Youcompleteme extras, read documentation
+$nvim
+
+:PlugInstall
+
+## Install extras for Youcompleteme
 
 pip install pynvim
+
+https://cygwin.com/setup-x86_64.exe
+
+https://go.dev/dl/
 
 .local\share\nvim\plugged\YouCompleteMe\install.py --all
 
 install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
 
-https://cygwin.com/setup-x86_64.exe
-
-## Open nvim
 $ nvim
-
-:PlugInstall
 
 :WakaTimeApiKey
 
