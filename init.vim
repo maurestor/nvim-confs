@@ -54,6 +54,9 @@ set softtabstop=4      " Number of spaces for soft tab
 set autoindent         " Copy indent from current line when starting a new line
 set smartindent        " Smart autoindenting when starting a new line
 
+" Terminal mode settings Pegado right click
+tnoremap <RightMouse> <C-\><C-N>"*p
+
 " Configuración del tema
 set termguicolors
 colorscheme onedark      " Usar el esquema de colores Monokai
