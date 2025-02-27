@@ -47,9 +47,12 @@ let g:airline_powerline_fonts = 1                     " Usar fuentes Powerline e
 set laststatus=2
 
 " Configuración de sangría y tabulación
-set tabstop=4            " Mostrar tabs con un ancho de 4 espacios
-set shiftwidth=4         " Usar 4 espacios cuando se indente con '>'
-set expandtab            " Insertar 4 espacios al presionar Tab
+set expandtab           " Use spaces instead of tabs
+set tabstop=4          " Number of spaces for a tab
+set shiftwidth=4       " Number of spaces for autoindent
+set softtabstop=4      " Number of spaces for soft tab
+set autoindent         " Copy indent from current line when starting a new line
+set smartindent        " Smart autoindenting when starting a new line
 
 " Configuración del tema
 set termguicolors
