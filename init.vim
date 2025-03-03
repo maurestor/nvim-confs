@@ -56,6 +56,8 @@ set smartindent        " Smart autoindenting when starting a new line
 
 " Terminal mode settings Pegado right click
 tnoremap <RightMouse> <C-\><C-N>"*p
+" Mapear selecciones visuales para copiar automáticamente al portapapeles
+vnoremap <silent> y :w !xclip -selection clipboard<CR><CR>
 
 " Configuración del tema
 set termguicolors
