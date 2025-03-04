@@ -58,7 +58,7 @@ https://www.msys2.org/#installation
 
 .local\share\nvim\plugged\YouCompleteMe\install.py --all
 
-install python3-dev, cmake, nodejs, npm, go, mono-complete, clang
+install python3-dev, cmake, nodejs, npm, go, mono-complete, clang. 
 
 $ nvim
 
