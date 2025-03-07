@@ -106,14 +106,11 @@ let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 let g:ycm_confirm_extra_conf = 0
 let g:ycm_global_ycm_extra_conf = '~/.config/nvim/.ycm_extra_conf.py'
 
-" Configuración para activar NERDTree automáticamente
-autocmd VimEnter * NERDTree
-
-" Configuración para abrir NERDTree si no hay buffers abiertos
-autocmd VimEnter * if !argc() | NERDTree | endif
-
 " Mapeo para alternar NERDTree con Ctrl + t
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 " Cerrar Neovim si NERDTree es la única ventana abierta
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+" Mover el cursor a la ventana de edición automáticamente si NERDTree se abre al iniciar
+autocmd VimEnter * if argc() == 0 | execute 'NERDTree' | wincmd p | endif
