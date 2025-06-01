@@ -13,7 +13,7 @@ $ cd ~
 
 ---
 ## Linux
-sudo snap install neovim
+$ sudo snap install neovim
 
 $ mkdir ~/.config
 
