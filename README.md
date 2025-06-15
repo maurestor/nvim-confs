@@ -31,7 +31,7 @@ $ nvim (Enter to pass start issues)
 
 $ sudo apt install cmake
 
-$ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py (it take a long time, be patient. Dont use on Raspberry Pi Zero 😖🥹)
+$ python3 ~/.local/share/nvim/plugged/youcompleteme/install.py (it take a long time, be patient. Dont use on Raspberry Pi Zero )
 
 :Copilot setup
 
